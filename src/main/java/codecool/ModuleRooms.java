@@ -1,6 +1,6 @@
 package codecool;
 
-import codecool.human.Students;
+import codecool.human.students.Students;
 
 import java.util.List;
 

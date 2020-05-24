@@ -2,7 +2,7 @@ package codecool.human.officeworkers;
 
 import codecool.human.Human;
 
-public class OfficeWorkers implements Human {
+public abstract class OfficeWorkers implements Human {
 
     public String playAnInstrument() {
         return "Tu turutu!";
