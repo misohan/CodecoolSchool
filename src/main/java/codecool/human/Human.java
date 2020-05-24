@@ -1,4 +1,4 @@
-package codecool;
+package codecool.human;
 
 public interface Human {
 }
