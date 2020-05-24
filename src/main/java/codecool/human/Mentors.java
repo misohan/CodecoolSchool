@@ -1,4 +1,4 @@
 package codecool.human;
 
-public class Mentors {
+public class Mentors implements Human {
 }
