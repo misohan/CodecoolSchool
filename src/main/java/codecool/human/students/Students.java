@@ -1,5 +1,5 @@
 package codecool.human.students;
 
-public class Students {
+public abstract class Students {
 
 }
