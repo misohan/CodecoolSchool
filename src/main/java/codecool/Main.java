@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        ModuleRooms moduleRooms = new RegularMentor();
+        ModuleRooms moduleRoom = new RegularMentor();
 
         List<Students> students = new ArrayList<>();
         students.add(new HungarianStudent("Patrik", "Xavier"));
@@ -26,7 +26,7 @@ public class Main {
         students.add(new HungarianStudent("Lajos", "Klein"));
         students.add(new HungarianStudent("Zuzana", "Beta"));
 
-        students = moduleRooms.checkAttendance(students);
+        students = moduleRoom.checkAttendance(students);
 
         for(Students student: students){
             System.out.println(student.getFirstName() + " " + student.getLastName() + " does " + student.playAnInstrument() + ", and say: " + student.sayThing());
