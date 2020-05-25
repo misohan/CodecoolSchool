@@ -4,7 +4,6 @@ import codecool.human.mentors.RegularMentor;
 import codecool.human.students.HungarianStudent;
 import codecool.human.students.PolishStudent;
 import codecool.human.students.Students;
-
 import java.util.ArrayList;
 import java.util.List;
 

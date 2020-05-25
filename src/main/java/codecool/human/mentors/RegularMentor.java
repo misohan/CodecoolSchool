@@ -1,7 +1,6 @@
 package codecool.human.mentors;
 
 import codecool.human.students.Students;
-
 import java.util.List;
 
 public class RegularMentor extends Mentors{
